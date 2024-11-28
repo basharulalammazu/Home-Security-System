@@ -51,12 +51,12 @@ Once the system is activated, an intrusion would trigger the following actions:
 
 ## ⚡ Circuit Diagram
 
-![Circuit Diagram](./assets/Circuit_diagram.png)  
+![Circuit Diagram](./Assets/Circuit_diagram.png)  
 ---
 
 ## 🛠️ Working Method
 <p align = "center">
-  <img src="./assets/Laser_Security_Work_Method.jpg">
+  <img src="./Assets/Laser_Security_Work_Method.jpg">
 </p>
 
 1. **Laser Detection**: The red laser diode is placed across the entry point. The LDR (Light Dependent Resistor) detects any interruption in the laser beam, signaling a potential intrusion.
@@ -67,7 +67,7 @@ Once the system is activated, an intrusion would trigger the following actions:
 
 ## 📊 Block Diagram
 <p align = "center">
-  <img src="./assets/Block_diagram.png">
+  <img src="./Assets/Block_diagram.png">
 </p>
 
 
