@@ -6,10 +6,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Arduino-UNO-blue" />
-  <img src="https://img.shields.io/badge/GSM800L-MINI-GPRS-green" />
+  <img src="https://img.shields.io/badge/GSM-SIM800L-orange" />
   <img src="https://img.shields.io/badge/LDR%20Sensor-Module-yellowgreen" />
-  <img src="https://img.shields.io/badge/18650-Battery-Holder-red" />
+  <img src="https://img.shields.io/badge/Battery-Powered-green" />
 </p>
+
+
 
 ---
 
@@ -49,21 +51,25 @@ Once the system is activated, an intrusion would trigger the following actions:
 
 ## ⚡ Circuit Diagram
 
-![Circuit Diagram](./Assets/Circuit_diagram.png)  
+![Circuit Diagram](./assets/Circuit_diagram.png)  
 ---
 
 ## 🛠️ Working Method
+<p align = "center">
+  <img src="./assets/Laser_Security_Work_Method.jpg">
+</p>
 
 1. **Laser Detection**: The red laser diode is placed across the entry point. The LDR (Light Dependent Resistor) detects any interruption in the laser beam, signaling a potential intrusion.
 2. **Buzzer Activation**: Upon detecting a laser beam interruption, the Arduino activates the 1207 buzzer to produce an alert sound, notifying the homeowner of a potential security breach.
 3. **Remote Alert**: Simultaneously, the SIM800L module sends a phone call to the homeowner's mobile phone, informing them of the detected movement or unauthorized access.
 4. **Power Supply**: The system is powered by an **18650 battery**, ensuring that the security system remains operational even during power outages.
-
 ---
 
 ## 📊 Block Diagram
+<p align = "center">
+  <img src="./assets/Block_diagram.png">
+</p>
 
-![Block Diagram](./Assets/Block_diagram.png)  
 
 ---
 
